@@ -1,0 +1,73 @@
+# ============================================
+# macOS
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ============================================
+# Editor / IDE
+# ============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================
+# STM32CubeIDE / Eclipse
+# ============================================
+.metadata/
+.settings/
+Debug/
+Release/
+
+# Generated binaries / build artifacts
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.su
+*.cyclo
+*.d
+*.a
+
+# ============================================
+# C / C++ temporary files
+# ============================================
+*.out
+*.exe
+
+# ============================================
+# Python utilities, if used
+# ============================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ============================================
+# Logs / temporary files
+# ============================================
+*.log
+*.tmp
+*.temp
+*.bak
+
+# ============================================
+# SysML / modeling-tool temporary files
+# Add tool-specific rules once the modeling
+# tool and project-file format are finalized.
+# ============================================
+*.lock
+*.lck
+
+# ============================================
+# Secrets / local configuration
+# ============================================
+.env
+.env.*
+!.env.example
